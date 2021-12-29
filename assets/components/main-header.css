@@ -1,0 +1,16 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 6rem;
+    align-items: center;
+    border-bottom: 1px solid #0000002D;
+}
+
+.main-logo {
+    width: 6.25rem;
+}
+
+.main-menu {
+    font-size: 25px;
+    margin-left: 1.5rem;
+}
