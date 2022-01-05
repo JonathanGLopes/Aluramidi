@@ -1,5 +1,10 @@
 @import url(main-header.css);
 
+:root {
+    --branco: white;
+}
+
 body {
-    background-color:slategray;
+    background: repeat url(../img/background-dark-grey-noise.jpg);
+    color: var(--branco);
 }
