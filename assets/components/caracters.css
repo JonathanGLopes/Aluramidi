@@ -17,6 +17,10 @@
     box-shadow: inset 0 0 1em, 0 0 1em #FFF;
 }
 
+.card-char:hover {
+    box-shadow: inset 0 0 2em, 0 0 2em #FFF;
+}
+
 .descricao-char {
     text-align: center;
     font-size: 1.5rem;
