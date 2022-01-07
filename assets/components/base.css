@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 @import url(main-header.css);
 @import url(main-content.css);
 @import url(caracters.css);
@@ -5,6 +6,7 @@
 
 :root {
     --branco: white;
+    --titulo: 'Audiowide', cursive;
 }
 
 body {

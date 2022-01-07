@@ -6,8 +6,11 @@
     border-bottom: 1px solid #99664d5D;
 }
 
-.main-logo {
-    width: 6.25rem;
+.main-title {
+    font-family: var(--titulo);
+    font-size: 4rem;
+    color: goldenrod;
+    text-shadow: 3px 2px black;
 }
 
 .main-menu {
