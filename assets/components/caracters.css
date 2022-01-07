@@ -1,13 +1,24 @@
 .title-char {
     font-size: 4rem;
     text-align: center;
+    margin-top: 1rem;
 }
 
 .wrap-char {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10rem;
+    padding: 10rem 10rem;
 }
 
 .card-char {
     width: 380px;
     height: 250px;
+    box-shadow: inset 0 0 1em, 0 0 1em #FFF;
+}
+
+.descricao-char {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
 }

@@ -1,6 +1,7 @@
 @import url(main-header.css);
 @import url(main-content.css);
 @import url(caracters.css);
+@import url(/assets/pages/vi.html);
 
 :root {
     --branco: white;
