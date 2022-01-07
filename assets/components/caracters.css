@@ -1,0 +1,13 @@
+.title-char {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.wrap-char {
+    display: grid;
+}
+
+.card-char {
+    width: 380px;
+    height: 250px;
+}
