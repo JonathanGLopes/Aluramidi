@@ -3,13 +3,13 @@
     justify-content: space-between;
     padding: 3rem 6rem;
     align-items: center;
-    border-bottom: 1px solid #99664d5D;
+    /* border-bottom: 1px solid #99664d5D; */
 }
 
 .main-title {
     font-family: var(--titulo);
     font-size: 4rem;
-    color: goldenrod;
+    color: var(--amarelo);
     text-shadow: 3px 2px black;
 }
 
@@ -23,5 +23,5 @@
 }
 
 .main-menu:hover {
-    text-decoration: underline;
+    color: var(--amarelo);
 }

@@ -3,10 +3,14 @@
 @import url(main-content.css);
 @import url(caracters.css);
 @import url(/assets/pages/vi.html);
+@import url(main-section.css);
+@import url(side-char.css);
 
 :root {
     --branco: white;
+    --amarelo: goldenrod;
     --titulo: 'Audiowide', cursive;
+
 }
 
 body {

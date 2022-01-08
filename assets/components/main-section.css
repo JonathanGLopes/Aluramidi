@@ -1,0 +1,39 @@
+.main-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    /* border-bottom: 1px solid #99664d5D; */
+}
+
+.char-title {
+    font-size: 3rem;
+    font-family: var(--titulo);
+    margin-bottom: 4rem;
+    color: var(--branco);
+    text-shadow: 2px 2px 10px black;
+    margin-top: 1rem;
+}
+
+.wrap-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.description-char {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    width: 55rem;
+    margin-bottom: 1rem;
+}
+
+.banner-char {
+    width: 32rem;
+    height: 45rem;
+    margin-top: .5rem;
+    box-shadow: 0px 10px 20px black;
+
+}
+
+.gif-char {
+    width: 30rem;
+}

@@ -1,24 +1,25 @@
 .title-char {
     font-size: 4rem;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 3rem;
 }
 
 .wrap-char {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 10rem;
+    gap: 5rem;
     padding: 10rem 10rem;
 }
 
 .card-char {
     width: 380px;
     height: 250px;
-    box-shadow: inset 0 0 1em, 0 0 1em #FFF;
+    border: var(--amarelo) solid 1.8px;
+    /* box-shadow: inset 0 0 1em, 0 0 1em var(--amarelo); */
 }
 
 .card-char:hover {
-    box-shadow: inset 0 0 2em, 0 0 2em #FFF;
+    box-shadow: inset 0 0 0.5em, 0 0 0.5em var(--amarelo);
 }
 
 .name-char {

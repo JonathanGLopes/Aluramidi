@@ -1,0 +1,11 @@
+.title-side {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.wrap-side {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4rem;
+}
