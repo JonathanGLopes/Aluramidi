@@ -37,3 +37,8 @@
 .gif-char {
     width: 30rem;
 }
+
+#gif-char {
+    width: 40rem;
+    height: 20rem;
+}
