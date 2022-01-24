@@ -5,6 +5,7 @@
 @import url(/assets/pages/vi.html);
 @import url(main-section.css);
 @import url(side-char.css);
+@import url(regiao.css);
 
 :root {
     --branco: white;
