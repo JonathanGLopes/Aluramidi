@@ -4,19 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/components/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/components/base.css">
+    
     <title>Arcane | Personagens</title>
 
 </head>
 <body>
-    <header class="main-header">
-        <a href="/index.html"> <h1 class="main-title">ARCANE</h1> </a>
-        <nav>
-            <a href="index.html" class="main-menu">Início</a>
-            <a href="personagens.html" class="main-menu">Personagens</a>
-            <a href="regiao.html" class="main-menu">Região</a>
+   <header class="main-header">
+      <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">ARCANE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">Início</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="personagens.html">Personagens</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="regiao.html">Região</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
-    </header>
+  </header>
     <section class="caracters">
             <h1 class="title-char">Personagens</h1>
         <div class="wrap-char">
@@ -58,5 +75,10 @@
              </figure>
         </div>
     </section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
 </body>
 </html>
