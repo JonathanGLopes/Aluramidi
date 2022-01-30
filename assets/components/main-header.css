@@ -1,11 +1,11 @@
-/* .main-header {
+.main-header {
+    padding: 1rem 1rem;
+}
+
+.main-nav{
     display: flex;
     justify-content: space-between;
-    padding: 3rem 6rem;
-    align-items: center;
-    /* border-bottom: 1px solid #99664d5D; */
-} */
-
+}
 .main-title {
     font-family: var(--titulo);
     font-size: 4rem;
