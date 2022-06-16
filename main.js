@@ -15,4 +15,17 @@ for (let contador = 0; contador < $listaTeclas.length; contador++){
         tocaSom(idAudio);
     });
 
+    tecla.addEventListener("keydown", function(evento){
+        if(evento.code === 'Space' || evento.code === 'Enter'){
+            tecla.classList.add('ativa');
+        }
+    });
+
+    tecla.addEventListener("keyup", function(evento){
+        if (evento.code === 'Space' || evento.code === 'Enter'){
+            tecla.classList.remove('ativa');
+        }
+    });
+
+
 }
