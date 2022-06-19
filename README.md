@@ -12,4 +12,4 @@
 <li> JavaScript </li>
 
 <h2> Status do projeto:</h2>
-<span> Em andamento </span>
+<span> Finalizado. </span>
